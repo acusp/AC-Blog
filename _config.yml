@@ -5,8 +5,8 @@ header-img: img/home-bg.jpg
 email: acusp.xu@gmail.com
 description: "about programming, linux, security."
 keyword: ""
-url: "http://acusp.info/blog"
-baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
+url: "http://acusp.info"
+baseurl: "/blog"         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
