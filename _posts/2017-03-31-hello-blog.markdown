@@ -4,10 +4,11 @@ title:      "Github Pages + Jekyll 搭建博客"
 subtitle:   " \"Hello World, Hello Blog\""
 date:       2017-03-31 01:00:00
 author:     "Acusp"
-header-img: "img/post-bg-2015.jpg"
+header-img: "img/post/post-bg-2017-03-31.jpg"
 catalog: true
 tags:
-    - 教程
+    - tutorial
+    - blog
 ---
 
 
