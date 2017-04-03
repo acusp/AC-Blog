@@ -62,7 +62,7 @@ ga_domain: acusp.info
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "各种好奇，各种分享，新技能Get"
+sidebar-about-description: "热衷于学习各种新技能，对一切未知充满好奇；喜欢自由，无拘无束。"
 sidebar-avatar: /img/avatar-acusp.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
