@@ -1,12 +1,13 @@
 # Site settings
-title: ACUSP.INFO
-BLOGtitle: Acusp's Blog
+Infotitle: ACUSP.INFO
+title: Acusp's Blog
 SEOTitle: 歧点 | Acusp's Blog
 header-img: img/home-bg.jpg
 email: acusp.xu@gmail.com
 description: "about programming, security, tools."
 keyword: "security, geek, hacker"
-url: "http://blog.acusp.info"
+Infourl: "https://acusp.info"
+url: "https://blog.acusp.info"
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
