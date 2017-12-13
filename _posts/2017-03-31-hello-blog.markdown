@@ -38,7 +38,7 @@ tags:
 
 如：我的仓库名为 `acusp.github.io` (因为我的仓库已经存在，所以有红色的提示信息，请忽略)：
 
-![创建新仓库](/blog/img/post/17-03-31-01-create-new-repository.png)
+![创建新仓库](/img/post/17-03-31-01-create-new-repository.png)
 
 
 ### 1.3 克隆仓库到本地电脑
@@ -147,11 +147,11 @@ Github Pages 还有一个好处就是支持用户自定义域名，而不是只�
 
 首先进入到 username.github.io 仓库页面，点击右上角的 `Settings`:
 
-![Settings](/blog/img/post/17-03-31-02-settings.png)
+![Settings](/img/post/17-03-31-02-settings.png)
 
 然后在 Github Pages -> Custom domain 中填入自己的域名：
 
-![add custom domain](/blog/img/post/17-03-31-03-add-custom-domain.png)
+![add custom domain](/img/post/17-03-31-03-add-custom-domain.png)
 
 
 ### 4.2 域名解析
@@ -160,11 +160,11 @@ Github Pages 还有一个好处就是支持用户自定义域名，而不是只�
 
 这里我使用的是 [DNSPOD](https://www.dnspod.cn/)。注册登录后，我们可以添加一个域名解析服务:
 
-![domain parser](/blog/img/post/17-03-31-04-domain-parser.png)
+![domain parser](/img/post/17-03-31-04-domain-parser.png)
 
 创建完毕后，进入到添加的域名中进行如下配置：
 
-![domain parser](/blog/img/post/17-03-31-05-domain-parser.png)
+![domain parser](/img/post/17-03-31-05-domain-parser.png)
 
 > 注意：新创建的域名解析中会默认包含两条记录，我们只需要添加红框中的三个，其中最后一个的记录值填写自己的 username.github.io
 
@@ -175,7 +175,7 @@ Github Pages 还有一个好处就是支持用户自定义域名，而不是只�
 
 将 [4.2] 域名解析中的默认的两条记录的记录值加入到域名服务器，如:
 
-![dns managemeng](/blog/img/post/17-03-31-06-dns-management.png)
+![dns managemeng](/img/post/17-03-31-06-dns-management.png)
 
 > 注意：不同的域名网站，DNS 的管理功能可能会有所不同，可以通过搜索引擎查找符合自己的方法
 
