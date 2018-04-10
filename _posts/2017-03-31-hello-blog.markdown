@@ -7,8 +7,7 @@ author:     "Acusp"
 header-img: "img/post/20170331/post-bg-2017-03-31.jpg"
 catalog: true
 tags:
-    - jekyll
-    - github pages
+    - blog
 ---
 
 
