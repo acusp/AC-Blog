@@ -22,7 +22,7 @@ tags:
 ## 0x01 Github Pages
 
 
-### 1.1 准备工作
+#### 1.1 准备工作
 
 
 因为我们的博客是搭建在 Github 上的，所以首先需要读者拥有自己的 Github 账号。
@@ -30,7 +30,7 @@ tags:
 如果没有请先到[官网](https://github.com/)进行注册，注册方法与一般的网站注册方法类似，这里不进行细说。
 
 
-### 1.2 创建仓库
+#### 1.2 创建仓库
 
 
 登录到自己的 Github 账号后，点击右上角头像旁边的加号，选择 `New repository` 创建一个新的仓库；
@@ -42,7 +42,7 @@ tags:
 ![创建新仓库](/img/post/20170331/17-03-31-01-create-new-repository.png)
 
 
-### 1.3 克隆仓库到本地电脑
+#### 1.3 克隆仓库到本地电脑
 
 
 读者需要根据自己的操作系统，安装相应的 git 工具，然后在命令行执行下列命令:
@@ -66,7 +66,7 @@ git push -u origin master
 上面的操作需要读者有一定的命令行操作经验，如果不会使用命令行，可以在 Github 官网下载图形化的客户端，具体操作请自行搜索。
 
 
-### 1.4 浏览网页
+#### 1.4 浏览网页
 
 
 不出意外的话，这时候我们就可以在浏览器中输入: `http://USERNAME.github.io` 访问自己的网站了；只是这个时候我们看到的只有 `Hello World` 这一句话而已。
@@ -98,7 +98,7 @@ Jekyll 不但可以自动将我们写的 markdown 格式的文章转换为静态
 为了使用 Jekyll，我们必须在电脑上安装命令行工具，macOS/Linux 系统已经自带了命令行工具可直接使用，而 Windows 用户需要自己安装 [git](https://git-for-windows.github.io/) ，安装完成后便会有一个 git bash 命令行。具体的操作读者可自行搜索。
 
 
-### 3.1 安装 [Bundler](http://bundler.io/)
+#### 3.1 安装 [Bundler](http://bundler.io/)
 
 
 首先查看是否已经安装了 Ruby 2.1.0 以上的版本: `ruby --version`
@@ -108,7 +108,7 @@ Jekyll 不但可以自动将我们写的 markdown 格式的文章转换为静态
 安装 ruby 后，使用 gem 安装 Bundler: `gem install bundler`
 
 
-### 3.2 安装 Jekyll
+#### 3.2 安装 Jekyll
 
 
 在 username.github.io 目录中创建一个名为 `Gemfile` 的文件, 并且在文件中写入下列内容:
@@ -127,7 +127,7 @@ gem 'github-pages', group: :jekyll_plugins
 > 注意：如果安装过程中出现了错误，请在搜索引擎中搜索错误的关键字，自己解决问题。
 
 
-### 3.3 生成本地网站预览
+#### 3.3 生成本地网站预览
 
 
 执行下列命令，Jekyll 会在本地生成一个网站服务器，你可以在浏览器中输入地址 `http://localhost:4000` 查看自己的博客。
@@ -137,7 +137,7 @@ bundle exec jekyll serve
 ```
 
 
-### 3.4 更新 Github Pages 插件
+#### 3.4 更新 Github Pages 插件
 
 为了保证本地预览的效果与上传到 Github 上的效果保持一致，我们需要经常跟新 github pages 的插件
 
@@ -155,7 +155,7 @@ github pages 官网版本：https://pages.github.com/versions/
 Github Pages 还有一个好处就是支持用户自定义域名，而不是只能使用默认的 username.github.io。
 
 
-### 4.1 配置域名
+#### 4.1 配置域名
 
 
 在使用自定义域名之前，我们需要自己购买域名。购买域名的网站很多，读者可以自行搜索选择适合自己的。
@@ -173,7 +173,7 @@ Github Pages 还有一个好处就是支持用户自定义域名，而不是只�
 ![add custom domain](/img/post/20170331/17-03-31-03-add-custom-domain.png)
 
 
-### 4.2 域名解析
+#### 4.2 域名解析
 
 填写完域名后，还不能直接通过自定义的域名访问自己的博客，我们需要通过域名服务器帮我们把自定义的域名与 username.github.io 关联起来。
 
@@ -188,7 +188,7 @@ Github Pages 还有一个好处就是支持用户自定义域名，而不是只�
 > 注意：新创建的域名解析中会默认包含两条记录，我们只需要添加红框中的三个，其中最后一个的记录值填写自己的 username.github.io
 
 
-### 4.3 DNS 管理
+#### 4.3 DNS 管理
 
 最后再回到购买域名的网站，登录自己的账号，找到域名设置中的 DNS 管理功能。
 
