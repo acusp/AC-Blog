@@ -26,7 +26,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: README.md
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -78,8 +78,8 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
-
+  type: git
+  repo: https://github.com/acusp/AC-Blog
 
 
 # ---------------------------------------------------------------
@@ -88,6 +88,7 @@ deploy:
 # See: https://github.com/theme-next/hexo-theme-next/blob/master/docs/zh-CN/DATA-FILES.md
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
+
 
 theme_config:
 
@@ -301,6 +302,7 @@ theme_config:
     #YouTube: https://youtube.com/yourname || youtube
     #Instagram: https://instagram.com/yourname || instagram
     #Skype: skype:yourname?call|chat || skype
+    知乎: https://www.zhihu.com/people/acusp
 
   social_icons:
     enable: true
