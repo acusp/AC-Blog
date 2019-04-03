@@ -1,0 +1,84 @@
+# Site settings
+Infotitle: ACUSP.INFO
+title: Acusp's Blog
+SEOTitle: 歧点 | Acusp's Blog
+header-img: img/home-bg.jpg
+email: acusp.xu@gmail.com
+description: "about programming, security, tools."
+keyword: "security, geek, hacker"
+Infourl: "https://acusp.info"
+url: "https://blog.acusp.info"
+baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
+
+
+
+# SNS settings
+RSS: true
+weibo_username:     xsp610
+zhihu_username:     acusp
+github_username:    acusp
+#twitter_username:  acusp
+#facebook_username:  huxpro
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems -> plugins
+# from PR#40, to support local preview for Jekyll 3.0
+plugins: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+#disqus_username: _your_disqus_short_name_
+
+
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: ce472038c53a64826054bafc870d2d24
+# Google Analytics
+ga_track_id: 'UA-96564187-1'
+ga_domain: acusp.info
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "热衷于学习各种新技能，对一切未知充满好奇；喜欢自由，无拘无束。"
+sidebar-avatar: /img/avatar-acusp.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Friends
+friends: [
+    {
+        #title: "Misky Blog",
+        #href: "http://misky.info"
+    }
+]
