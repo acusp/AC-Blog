@@ -53,6 +53,7 @@ rss:
 
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
+  since: 2019
   #since: 2019
 
   # Icon between year and copyright info.
