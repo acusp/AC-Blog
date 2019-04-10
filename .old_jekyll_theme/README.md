@@ -4,6 +4,6 @@
 
 ## Acusp's Blog
 
-Use [Github Pages](https://pages.github.com/) and [Next](https://theme-next.org/) theme for [Hexo](https://hexo.io/).
+Use Github Pages and Jekyll theme from [huxpro](https://github.com/Huxpro/huxpro.github.io)
 
 
