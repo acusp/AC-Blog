@@ -2,8 +2,7 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=plastic)](/LICENSE)
 
 
-## Acusp's Blog
+#r# Acusp's Blog
 
-Use [Github Pages](https://pages.github.com/) and [Next](https://theme-next.org/) theme for [Hexo](https://hexo.io/).
-
+Use [Github Pages](https://pages.github.com/) and [Mirror](https://github.com/LoeiFy/Mirror).
 
