@@ -2,7 +2,7 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=plastic)](/LICENSE)
 
 
-#r# Acusp's Blog
+## Acusp's Blog
 
 Use [Github Pages](https://pages.github.com/) and [Mirror](https://github.com/LoeiFy/Mirror).
 
